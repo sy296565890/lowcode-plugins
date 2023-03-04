@@ -1,7 +1,7 @@
 {
   "name": "@alilc/lowcode-plugin-code-editor",
   "author": "59174526@qq.com & humphry.huang9@gmail.com",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "CodeEditor",
   "files": [
     "es",
@@ -14,7 +14,7 @@
   "scripts": {
     "start": "build-scripts start --config build.js",
     "prepublishOnly": "npm run build",
-    "build": "build-scripts build --skip-demo --config build.js"
+    "build": "build-scripts build --config build.js"
   },
   "publishConfig": {
     "access": "public"
